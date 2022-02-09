@@ -1,0 +1,102 @@
+        @media only screen and (max-width: 992px) {
+            .logo {
+                width: 22%;
+                height: auto;
+            }
+            #imgAbout>img {
+                width: 75%;
+            }
+            .resp {
+                height: 265px;
+            }
+            .menu {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+            }
+            .ftco-navbar-light {
+                background-color: rgb(226 214 165) !important;
+            }
+            .hero-wrap {
+                margin-bottom: -68%;
+            }
+            .border-img-left {
+                background-image: none !important;
+                border-style: solid;
+                border-image: url(../img/border.png) 30 round;
+                border-top: none;
+                border-right: none !important;
+                border-bottom: none;
+                border-width: 63px;
+                border-image-slice: 247;
+            }
+            .border-img-right {
+                background-image: none!important;
+                /* border-style: solid; */
+                border-style: none!important;
+                border-image: url(../img/border.png) 30 round !important;
+                border-top: none;
+                border-left: none;
+                border-bottom: none;
+                border-width: 63px;
+                border-image-slice: 247;
+            }
+            .titlePar:after {
+                width: 10% !important;
+            }
+            .titlePar:before {
+                width: 10% !important;
+            }
+            .wrap-about {
+                margin-top: 10px;
+                padding: 10px;
+                border-top-style: groove;
+                border-top-width: thin;
+            }
+            .img2 {
+                width: auto !important;
+            }
+            #bestSeller>div {
+                height: max-content !important;
+                margin-left: 0% !important;
+            }
+            #news>div {
+                height: max-content !important;
+            }
+            .img3 {
+                width: 200px!important
+            }
+            .ourP {
+                margin-left: 0% !important;
+                margin-top: -48px !important;
+                height: max-content !important;
+            }
+            .ftco-footer-widget>.logo>img {
+                margin-left: 0% !important;
+                width: auto !important;
+            }
+            .respSlider {
+                width: 80%;
+            }
+            .address {
+                width: 23rem !important;
+                margin-top: 20px;
+            }
+            .prt {
+                height: auto !important;
+            }
+            .hr {
+                width: 30vh !important;
+            }
+            .logoLeft {
+                left: 0% !important;
+            }
+            .copy2 {
+                width: 240px !important;
+            }
+            .heigth_100 {
+                height: 100% !important;
+            }
+            .pink {
+                margin-top: -11%;
+            }
+        }

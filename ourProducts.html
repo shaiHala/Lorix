@@ -26,98 +26,13 @@
 </head>
 
 <body class="">
-    <div class="wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 d-flex align-items-center">
-                    <p class="mb-0 phone pl-md-2">
-                        <a class="navbar-brand" href="home.html"><img src="img/logo2.png" alt="" class="logo" /></a>
-                    </p>
-                </div>
-                <div class="col-md-6 d-flex justify-content-md-end">
-                    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-                        <div class="container">
-                            <!-- <a class="navbar-brand" href="index.html">Liquor <span>store</span></a> -->
-
-                            <div class="order-lg-last btn-group" style="margin-left: 10%">
-                                <a href="#" class="btn-cart dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                                    <i class="fa fa-shopping-cart color_1" style="FONT-SIZE: x-large; "></i>
-                                    <div class="d-flex justify-content-center align-items-center">
-                                        <small>0</small>
-                                    </div>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <div class="dropdown-item d-flex align-items-start" href="#">
-                                        <!-- <div class="img" style="background-image: url(images/prod-1.jpg);"></div>
-                                                                              <div class="text pl-3">
-                                                                                  <h4>Bacardi 151</h4>
-                                                                                  <p class="mb-0"><a href="#" class="price">$25.99</a><span class="quantity ml-3">Quantity: 01</span></p>
-                                                                              </div> -->
-                                    </div>
-
-                                    <a class="dropdown-item text-center btn-link d-block w-100" href="cart.html">
-                                            View All
-                                            <span class="ion-ios-arrow-round-forward"></span>
-                                        </a>
-                                </div>
-                            </div>
-
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="oi oi-menu">
-                                        <i class="fa fa-bars"></i>
-                                    </span>
-                                </button>
-
-                            <div class="collapse navbar-collapse" id="ftco-nav">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a href="home.html" class="nav-link">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#brand_story" class="nav-link">Brand story</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our products</a>
-                                        <div class="dropdown-menu" aria-labelledby="dropdown04">
-                                            <a class="dropdown-item" href="product.html">Products</a>
-                                            <a class="dropdown-item" href="product-single.html">Single Product</a>
-                                            <a class="dropdown-item" href="cart.html">Cart</a>
-                                            <a class="dropdown-item" href="checkout.html">Checkout</a>
-                                        </div>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="contact.html" class="nav-link">Contact</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link" style="    padding-left: 0px!important;">
-                                            <ul class="social">
-                                                <li id="fr_click" class="button_lang current_lang">
-                                                    <img src="img/en.png" style="width: 20px;">
-                                                </li>
-                                                <li id="en_click" class="button_lang"><img src="img/ar.png" style="width: 20px;"></li>
-                                            </ul>
-                                        </a>
-
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="header"></div>
 
     <!-- END nav -->
-    <section class="ftco-section ftco-no-pb" id="bestSeller" style="border-image: url('img/border.png')  120 round;; border-right: 130px solid transparent;padding: 15px;">
-        <div class="container mt-5" style="margin-left: 2%;
-                             
-                          ">
+    <section class="ftco-section ftco-no-pb border-img-left" id="bestSeller" style="border-image: url('img/border.png')  120 round;; border-right: 130px solid transparent;padding: 15px;">
+        <div class="container mt-5" style="margin-left: 2%; ">
             <div class="row" style="    margin-top: 8%;">
-                <div class="col-md-12" style="
-                                                      margin-bottom: 20px;">
+                <div class="col-md-12" style="margin-bottom: 20px;">
                     <h2 class="titlePar">
                         Our Products</h2>
                 </div>
@@ -137,183 +52,201 @@
                     <!-- <button class="btn upperCase" onclick="filterSelection('o')">
                                     others</button> -->
                 </div>
-                <div class="container">
-                    <!-- <div class="filterDiv pc">BMW</div> -->
-                    <div class="row" style="
+            </div>
+            <div id="" class="subFilter_pc hidden" style="
+                margin: auto;
+                
+    width: fit-content;
+
+            ">
+                <!-- <button class="btn active upperCase" onclick="filterSelection('pc_all')">
+    Show all</button> -->
+                <button class="btn upperCase" onclick="filterSelection('pc_shampoo')">
+    Shampoo</button>
+                <button class="btn upperCase" onclick="filterSelection('pc_blotion')">
+    Body Lotion</button>
+                <button class="btn upperCase" onclick="filterSelection('pc_bath soaps')">
+                        Bath soaps</button>
+                <!-- <button class="btn upperCase" onclick="filterSelection('o')">
+            others</button> -->
+            </div>
+            <div class="container">
+                <!-- <div class="filterDiv pc">BMW</div> -->
+                <div class="row" style="
                                                 margin: auto;
                                             ">
 
-                        <div class="col-md-3 cardProduct  filterDiv pc">
-                            <div class="heart">
-                                <i class="fa fa-heart"></i>
-                            </div>
-                            <div class="top-div">
-                                <div class="border">
-                                    <img src="img/products/product2.jpeg">
-                                </div>
-                                <span>$24</span>
-                            </div>
-                            <div class="bottom-div">
-                                <h3>IKEA JALL</h3>
-                                <p>Laundry bucket to put clothes</p>
-                            </div>
-                            <div class="last-section">
-                                <div class="last-div">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <i class="fa fa-comment-o"></i>
-                                </div>
-                                <div class="buttons">
-                                    <button>Add to cart</button>
-                                </div>
-                            </div>
+                    <div class="col-md-3 cardProduct filterDiv pc article-loop">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
                         </div>
-                        <div class="col-md-3 cardProduct filterDiv pc">
-                            <div class="heart">
-                                <i class="fa fa-heart"></i>
+                        <div class="top-div">
+                            <div class="border">
+                                <img src="img/products/product2.jpeg">
                             </div>
-                            <div class="top-div">
-                                <div class="border">
-                                    <img src="img/products/product1.jpeg">
-                                </div>
-                                <span>$24</span>
-                            </div>
-                            <div class="bottom-div">
-                                <h3>IKEA JALL</h3>
-                                <p>Laundry bucket to put clothes</p>
-                            </div>
-                            <div class="last-section">
-                                <div class="last-div">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <i class="fa fa-comment-o"></i>
-                                </div>
-                                <div class="buttons">
-                                    <button>Add to cart</button>
-                                </div>
-                            </div>
+                            <span>$24</span>
                         </div>
-                        <div class="col-md-3 cardProduct filterDiv fs">
-                            <div class="heart">
-                                <i class="fa fa-heart"></i>
-                            </div>
-                            <div class="top-div">
-                                <div class="border">
-                                    <img src="img/products/product3.jpeg">
-                                </div>
-                                <span>$24</span>
-                            </div>
-                            <div class="bottom-div">
-                                <h3>IKEA JALL</h3>
-                                <p>Laundry bucket to put clothes</p>
-                            </div>
-                            <div class="last-section">
-                                <div class="last-div">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <i class="fa fa-comment-o"></i>
-                                </div>
-                                <div class="buttons">
-                                    <button>Add to cart</button>
-                                </div>
-                            </div>
+                        <div class="bottom-div">
+                            <h4>Personal care</h4>
+                            <p>Laundry bucket to put clothes</p>
                         </div>
-                        <div class="col-md-3 cardProduct filterDiv fs">
-                            <div class="heart">
-                                <i class="fa fa-heart"></i>
+                        <div class="last-section">
+                            <div class="last-div">
+                                <i class="fa fa-shopping-bag"></i>
+                                <i class="fa fa-comment-o"></i>
                             </div>
-                            <div class="top-div">
-                                <div class="border">
-                                    <img src="img/products/product4.jpeg">
-                                </div>
-                                <span>$24</span>
-                            </div>
-                            <div class="bottom-div">
-                                <h3>Product 4</h3>
-                                <p>Laundry bucket to put clothes</p>
-                            </div>
-                            <div class="last-section">
-                                <div class="last-div">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <i class="fa fa-comment-o"></i>
-                                </div>
-                                <div class="buttons">
-                                    <button>Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 cardProduct filterDiv hc">
-                            <div class="heart">
-                                <i class="fa fa-heart"></i>
-                            </div>
-                            <div class="top-div">
-                                <div class="border">
-                                    <img src="img/products/product5.jpeg">
-                                </div>
-                                <span>$24</span>
-                            </div>
-                            <div class="bottom-div">
-                                <h3>IKEA JALL</h3>
-                                <p>Laundry bucket to put clothes</p>
-                            </div>
-                            <div class="last-section">
-                                <div class="last-div">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <i class="fa fa-comment-o"></i>
-                                </div>
-                                <div class="buttons">
-                                    <button>Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 cardProduct filterDiv fs">
-                            <div class="heart">
-                                <i class="fa fa-heart"></i>
-                            </div>
-                            <div class="top-div">
-                                <div class="border">
-                                    <img src="img/products/product6.jpeg">
-                                </div>
-                                <span>$24</span>
-                            </div>
-                            <div class="bottom-div">
-                                <h3>IKEA JALL</h3>
-                                <p>Laundry bucket to put clothes</p>
-                            </div>
-                            <div class="last-section">
-                                <div class="last-div">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <i class="fa fa-comment-o"></i>
-                                </div>
-                                <div class="buttons">
-                                    <button>Add to cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 cardProduct filterDiv pc">
-                            <div class="heart">
-                                <i class="fa fa-heart"></i>
-                            </div>
-                            <div class="top-div">
-                                <div class="border">
-                                    <img src="img/products/product7.jpeg">
-                                </div>
-                                <span>$24</span>
-                            </div>
-                            <div class="bottom-div">
-                                <h3>IKEA JALL</h3>
-                                <p>Laundry bucket to put clothes</p>
-                            </div>
-                            <div class="last-section">
-                                <div class="last-div">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <i class="fa fa-comment-o"></i>
-                                </div>
-                                <div class="buttons">
-                                    <button>Add to cart</button>
-                                </div>
+                            <div class="buttons">
+                                <button>Add to cart</button>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-3 cardProduct filterDiv pc article-loop">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="top-div">
+                            <div class="border">
+                                <img src="img/products/product1.jpeg">
+                            </div>
+                            <span>$24</span>
+                        </div>
+                        <div class="bottom-div">
+                            <h4>Personal care 2</h4>
+                            <p>Laundry bucket to put clothes</p>
+                        </div>
+                        <div class="last-section">
+                            <div class="last-div">
+                                <i class="fa fa-shopping-bag"></i>
+                                <i class="fa fa-comment-o"></i>
+                            </div>
+                            <div class="buttons">
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cardProduct filterDiv fs article-loop">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="top-div">
+                            <div class="border">
+                                <img src="img/products/product3.jpeg">
+                            </div>
+                            <span>$24</span>
+                        </div>
+                        <div class="bottom-div">
+                            <h4> Fabric softener </h4>
+                            <p>Laundry bucket to put clothes</p>
+                        </div>
+                        <div class="last-section">
+                            <div class="last-div">
+                                <i class="fa fa-shopping-bag"></i>
+                                <i class="fa fa-comment-o"></i>
+                            </div>
+                            <div class="buttons">
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cardProduct filterDiv fs article-loop">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="top-div">
+                            <div class="border">
+                                <img src="img/products/product4.jpeg">
+                            </div>
+                            <span>$24</span>
+                        </div>
+                        <div class="bottom-div">
+                            <h4>fabric softner 2</h4>
+                            <p>Laundry bucket to put clothes</p>
+                        </div>
+                        <div class="last-section">
+                            <div class="last-div">
+                                <i class="fa fa-shopping-bag"></i>
+                                <i class="fa fa-comment-o"></i>
+                            </div>
+                            <div class="buttons">
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cardProduct filterDiv hc article-loop">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="top-div">
+                            <div class="border">
+                                <img src="img/products/product5.jpeg">
+                            </div>
+                            <span>$24</span>
+                        </div>
+                        <div class="bottom-div">
+                            <h4>Home Care</h4>
+                            <p>Laundry bucket to put clothes</p>
+                        </div>
+                        <div class="last-section">
+                            <div class="last-div">
+                                <i class="fa fa-shopping-bag"></i>
+                                <i class="fa fa-comment-o"></i>
+                            </div>
+                            <div class="buttons">
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cardProduct filterDiv fs article-loop">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="top-div">
+                            <div class="border">
+                                <img src="img/products/product6.jpeg">
+                            </div>
+                            <span>$24</span>
+                        </div>
+                        <div class="bottom-div">
+                            <h4>Fabric softener</h4>
+                            <p>Laundry bucket to put clothes</p>
+                        </div>
+                        <div class="last-section">
+                            <div class="last-div">
+                                <i class="fa fa-shopping-bag"></i>
+                                <i class="fa fa-comment-o"></i>
+                            </div>
+                            <div class="buttons">
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 cardProduct filterDiv pc article-loop">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="top-div">
+                            <div class="border">
+                                <img src="img/products/product7.jpeg">
+                            </div>
+                            <span>$24</span>
+                        </div>
+                        <div class="bottom-div">
+                            <h4>personnal care</h4>
+                            <p>Laundry bucket to put clothes</p>
+                        </div>
+                        <div class="last-section">
+                            <div class="last-div">
+                                <i class="fa fa-shopping-bag"></i>
+                                <i class="fa fa-comment-o"></i>
+                            </div>
+                            <div class="buttons">
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                    <!-- <div class="filterDiv o hc">Orange</div>
+                <!-- <div class="filterDiv o hc">Orange</div>
                                         <div class="filterDiv pc">Volvo</div>
                                         <div class="filterDiv o">Red</div>
                                         <div class="filterDiv fs">Mustang</div>
@@ -325,117 +258,25 @@
                                         <div class="filterDiv hc">Banana</div>
                                         <div class="filterDiv fs">Lemon</div>
                                         <div class="filterDiv hc">Cow</div> -->
-                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+
+                <center>
+                    <div class="textBtn btn btn-secondary">
+                        <a href="#">All products</a>
+                    </div>
+                </center>
 
             </div>
-            <div class="row">
-                <div class="col-md-12">
-
-                    <center>
-                        <div class="textBtn btn btn-secondary">
-                            <a href="#">All products</a>
-                        </div>
-                    </center>
-
-                </div>
-            </div>
+        </div>
         </div>
 
     </section>
-    <footer class="ftco-footer">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-3 col-md">
-                    <div class="ftco-footer-widget mb-4 ml-md-4">
-                        <h2 class="ftco-heading-2"></h2>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#brand_story">
-                                    <span class="fa fa-chevron-right mr-2"></span>BRAND STORY</a>
-                            </li><br/>
-                            <li>
-                                <a href="#ourPartner">
-                                    <span class="fa fa-chevron-right mr-2"></span>PARTNERS</a>
-                            </li><br/>
-                            <li>
-                                <a href="#news">
-                                    <span class="fa fa-chevron-right mr-2"></span>NEWS</a>
-                            </li><br/>
-                            <li>
-                                <a href="contact.html">
-                                    <span class="fa fa-chevron-right mr-2"></span>CONTACT US</a>
-                            </li><br/>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2 logo"><img src="img/logo-removebg-preview.png" style="
-                                                              margin-top: -140px; margin-left: 76px;"></h2>
-                        <div style="    margin-left: 40% !important;
-                                                                margin: auto;
-                                                                justify-content: center;">
-                            <a href="https://twitter.com/LORXqa?fbclid=IwAR3mWuXIsmTHPLwoOshMXOCb6zsQbmwZhqle7OR3HKKcb_pYWuDaDmSkN40">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://www.instagram.com/lorx.qa/?fbclid=IwAR2QyLi73uSE_yz-_3USE-J-Szka-eXEMlBq7C7ARccztL7lWRIQSDd6Ffs">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://www.tiktok.com/@touchlifeQr?fbclid=IwAR2SVXaMyivNOo71fv1bMF8ADs6feYd7ax8eUX4yW4pRT0Tq38QdvcF_qBQ">
-                                <i class="bi bi-tiktok"></i>
-                            </a>
-                            <a href="https://www.facebook.com/LORX.qa">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="https://www.youtube.com/channel/UCfj3eRtvjzrVAVqQyiH7eiQ">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
 
-                        <!-- <ul class="ftco-footer-social list-unstyled mt-2">
-                                                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter">Hello</span></a></li>
-                                                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                                                        </ul> -->
-                    </div>
-                </div>
-
-
-                <div class="col-md-3 ">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">
-                            <img src="img/footer.png" alt="" style="border-radius: .75rem;
-                                                                  width: 142%;"></h2>
-                        <div class="block-23 mb-3"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.573325777903!2d51.39645731500867!3d25.150112083918035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45d7e8b8011343%3A0x8de052b35a873047!2slorx!5e0!3m2!1sfr!2sqa!4v1644072338315!5m2!1sfr!2sqa"
-                    width="600" height="250" style="border:0; margin-top: -68px; width: 100%;" allowfullscreen='' loading="lazy "></iframe>
-            </div>
-        </div>
-        <div class="container-fluid px-0 py-5 bg-black ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col-md-12 ">
-
-                        <p class="mb-0 " style="color: rgba(255,255,255,.5); ">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            All rights reserved |
-                            <i class="fa fa-heart color-danger " aria-hidden="true "></i> by
-                            <a href="https://colorlib.com " target="_blank ">advanced media</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer"></div>
 
 
     <script src="js/jquery.min.js "></script>
@@ -457,6 +298,12 @@
     <script src="js/slider.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js "></script>
     <script src="js/slick.js "></script>
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </body>
 </body>
 

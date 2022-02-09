@@ -270,6 +270,7 @@ init();
 
 
 function show(x) {
+
     x.style.opacity = "1"
     document.getElementById("middle").style.opacity = 0;
 }
